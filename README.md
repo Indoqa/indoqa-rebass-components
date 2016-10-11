@@ -34,6 +34,13 @@ const ListExample = () => (
       <ListItem> item 3 </ListItem>
       <ListItem> item 4 </ListItem>
     </List>
+    <Space y={1} />
+    <List ordered itemType="lower-alpha">
+      <ListItem> item 1 </ListItem>
+      <ListItem> item 2 </ListItem>
+      <ListItem> item 3 </ListItem>
+      <ListItem> item 4 </ListItem>
+    </List>
   </Div>
 )
 

@@ -10,7 +10,8 @@ const List = (props) => {
   const {itemType, ordered} = props
 
   const tag = (ordered) ? 'ol' : 'ul'
-  const itemStyleType = (ordered) ? 'decimal' : itemType
+  const defaultItemType = (ordered) ? 'decimal' : 'square'
+  const itemStyleType = itemType || defaultItemType
 
   const style = {
     listStyleType: itemStyleType,
@@ -28,7 +29,6 @@ List.propTypes = {
 }
 
 List.defaultProps = {
-  itemType: 'square',
   ordered: false
 }
 
