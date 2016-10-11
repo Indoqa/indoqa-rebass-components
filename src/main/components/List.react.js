@@ -7,7 +7,7 @@ const baseStyle = {
 }
 
 const List = (props) => {
-  const {itemType, ordered} = props
+  const {itemType, ordered, ...other} = props
 
   const tag = (ordered) ? 'ol' : 'ul'
   const defaultItemType = (ordered) ? 'decimal' : 'square'
@@ -19,13 +19,13 @@ const List = (props) => {
   }
 
   return (
-    <Base {...props} tagName={tag} baseStyle={style} />
+    <Base {...other} tagName={tag} baseStyle={style} />
   )
 }
 
 List.propTypes = {
   itemType: PropTypes.string,
-  ordered: PropTypes.boolean
+  ordered: PropTypes.bool
 }
 
 List.defaultProps = {
