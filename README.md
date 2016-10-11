@@ -51,7 +51,7 @@ export default ListExample
 
 ## Playground
 
-Start the demo app under src/playground for a live example:
+Start the demo app (src/playground) for a live example:
 ```bash
 git clone git@github.com:Indoqa/indoqa-rebass-components.git
 cd indoqa-rebass-components
