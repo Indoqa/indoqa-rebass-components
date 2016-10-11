@@ -1,5 +1,5 @@
 module.exports = {
-  appName: 'indoqa-rebass-theme',
+  appName: 'indoqa-rebass-components',
   isReactLibrary: true,
   externals: {
     react: 'react',
