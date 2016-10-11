@@ -62,4 +62,4 @@ cd indoqa-rebass-components
 npm install
 npm start
 ```
-Point your browser to [http://localhost:3000](http://localhost:3000) and edit pages in src/playground. Hotreloading is enabled by default.
+Point your browser to [http://localhost:3000](http://localhost:3000) and edit pages in src/playground. Hot reloading is enabled by default.
