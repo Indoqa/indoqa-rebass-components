@@ -5,6 +5,10 @@ A collection of additional rebass components:
   * Div: A simple div component, useful for structuring view code without any plain html tags.
   * List/ListItem: Ordered and unordered lists with default padding/margin settings and configurable listStyleType. 
 
+## Live Demo
+
+see [https://indoqa.github.io/indoqa-rebass-components/](https://indoqa.github.io/indoqa-rebass-components/)
+
 ## Usage
 
 ### Lists
@@ -51,10 +55,11 @@ export default ListExample
 
 ## Playground
 
-Start the demo app (src/playground) for a live example:
+Play around with our live demo locally: 
 ```bash
 git clone git@github.com:Indoqa/indoqa-rebass-components.git
 cd indoqa-rebass-components
 npm install
 npm start
 ```
+Point your browser to [http://localhost:3000](http://localhost:3000) and edit pages in src/playground. Hotreloading is enabled by default.
