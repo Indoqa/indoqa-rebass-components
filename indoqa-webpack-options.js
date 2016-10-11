@@ -4,7 +4,6 @@ module.exports = {
   externals: {
     react: 'react',
     'react-dom': 'react-dom',
-    'react-geomicons': 'react-geomicons',
     rebass: 'rebass'
   }
 }
