@@ -1,0 +1,38 @@
+{
+  "name": "indoqa-rebass-components",
+  "version": "0.1.0",
+  "main": "./dist/indoqa-rebass-components.min.js",
+  "scripts": {
+    "start": "node ./src/dev/server.js",
+    "dist": "indoqa-webpack ./indoqa-webpack-options.js",
+    "prepublish": "npm run dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Indoqa/indoqa-rebass-components.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "react",
+    "rebass",
+    "components",
+    "indoqa"
+  ],
+  "author": "Indoqa Software Design und Beratung GmbH (https://www.indoqa.com)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Indoqa/indoqa-rebass-components/issues"
+  },
+  "homepage": "https://github.com/Indoqa/indoqa-rebass-components#readme",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "rebass": "^0.3.3"
+  },
+  "devDependencies": {
+    "indoqa-webpack": "^0.6.5"
+  }
+}
