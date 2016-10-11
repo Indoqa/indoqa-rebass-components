@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node ./src/dev/server.js",
     "dist": "indoqa-webpack ./indoqa-webpack-options.js",
+    "docs": "indoqa-webpack ./indoqa-webpack-docs-options.js",
     "prepublish": "npm run dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
