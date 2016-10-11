@@ -3,7 +3,7 @@ module.exports = {
   mainJs: './src/playground/index.js',
   outputPath: './docs',
   outputPublicPath: '/indoqa-rebass-components',
+  createIndexHtml: true,
   isReactLibrary: false,
-  isPlayground: true,
   externals: {}
 }

@@ -2,10 +2,11 @@ import React from 'react'
 import Div from '../../main/components/Div.react'
 import List from '../../main/components/List.react'
 import ListItem from '../../main/components/ListItem.react'
-import {Space} from 'rebass'
+import {Space, Pre} from 'rebass'
 
 const ListExample = () => (
   <Div>
+    <Pre> &lt;List&gt; ... </Pre>
     <List>
       <ListItem> item 1 </ListItem>
       <ListItem> item 2 </ListItem>
@@ -13,6 +14,7 @@ const ListExample = () => (
       <ListItem> item 4 </ListItem>
     </List>
     <Space y={1} />
+    <Pre> &lt;List itemType="circle"&gt; ... </Pre>
     <List itemType="circle">
       <ListItem> item 1 </ListItem>
       <ListItem> item 2 </ListItem>
@@ -20,6 +22,7 @@ const ListExample = () => (
       <ListItem> item 4 </ListItem>
     </List>
     <Space y={1} />
+    <Pre> &lt;List ordered&gt; ... </Pre>
     <List ordered>
       <ListItem> item 1 </ListItem>
       <ListItem> item 2 </ListItem>
@@ -27,6 +30,7 @@ const ListExample = () => (
       <ListItem> item 4 </ListItem>
     </List>
     <Space y={1} />
+    <Pre> &lt;List ordered itemType="lower-alpha"&gt; ... </Pre>
     <List ordered itemType="lower-alpha">
       <ListItem> item 1 </ListItem>
       <ListItem> item 2 </ListItem>
