@@ -62,11 +62,11 @@ import {FontAwesome} from 'indoqa-rebass-components'
 
 import 'font-awesome/css/font-awesome.css'
 
-const ThumbsUpBigRed = () => (
+const ThumbsUpBigRedIcon = () => (
   <FontAwesome icon="thumbs-o-up" color="red" size="30px" />
 )
 
-export default FontAwesome
+export default ThumbsUpBigRedIcon
 ```
 
 Note: The font-awesome css is treated as optional provided dependency. It is not included in indoqa-rebass-components. Use npm package 'font-awesome' in your app.
