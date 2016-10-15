@@ -20,7 +20,7 @@ const FontAwesomeExample = () => (
       <Space y={1} />
     </Div>
     <Div>
-      <Pre> A lot of different icon  ... </Pre>
+      <Pre> A lot of different icons </Pre>
       <FontAwesome icon="play" />
       <Space x={1} />
       <FontAwesome icon="pause" />
