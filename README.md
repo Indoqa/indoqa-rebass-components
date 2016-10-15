@@ -2,9 +2,9 @@
 
 A collection of additional rebass components:
 
-  * Div: A simple div component, useful for structuring view code without any plain html tags.
-  * List/ListItem: Ordered and unordered lists with default padding/margin settings and configurable listStyleType. 
-  * FontAwesome: FontAwesome icons with configurable color and size. 
+  * `<Div />`: A simple div component, useful for structuring view code without any plain html tags.
+  * `<List> and <ListItem>`: Ordered and unordered lists with default padding/margin settings and configurable listStyleType. 
+  * `<FontAwesome />`: FontAwesome icons with configurable color and size. 
 
 ## Live Demo
 
