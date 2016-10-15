@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/Indoqa/indoqa-rebass-components#readme",
   "dependencies": {
+    "font-awesome": "^4.6.3",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "rebass": "^0.3.3"

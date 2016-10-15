@@ -4,6 +4,7 @@ A collection of additional rebass components:
 
   * Div: A simple div component, useful for structuring view code without any plain html tags.
   * List/ListItem: Ordered and unordered lists with default padding/margin settings and configurable listStyleType. 
+  * FontAwesome: FontAwesome icons with configurable color and size. 
 
 ## Live Demo
 
@@ -52,6 +53,23 @@ const ListExample = () => (
 
 export default ListExample
 ```
+
+### FontAwesome
+
+```javascript
+import React from 'react'
+import {FontAwesome} from 'indoqa-rebass-components'
+
+import 'font-awesome/css/font-awesome.css'
+
+const ThumbsUpBigRed = () => (
+  <FontAwesome icon="thumbs-o-up" color="red" size="30px" />
+)
+
+export default FontAwesome
+```
+
+Note: The font-awesome css is treated as optional provided dependency. It is not included in indoqa-rebass-components. Use npm package 'font-awesome' in your app.
 
 ## Playground
 
