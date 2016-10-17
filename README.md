@@ -2,7 +2,8 @@
 
 A collection of additional rebass components:
 
-  * `<Div />`: A simple div component, useful for structuring view code without any plain html tags.
+  * `<Anchor />` and `<AnchorLink />`: Jump to anchors on the same page.
+  * `<Div />` and `<Span />`: Simple div/span components with the benefits of padding/margin shortcuts and theme configuration.
   * `<List> and <ListItem>`: Ordered and unordered lists with default padding/margin settings and configurable listStyleType. 
   * `<FontAwesome />`: FontAwesome icons with configurable color and size. 
 
@@ -11,6 +12,27 @@ A collection of additional rebass components:
 see [https://indoqa.github.io/indoqa-rebass-components/](https://indoqa.github.io/indoqa-rebass-components/)
 
 ## Usage
+
+### Anchor/AnchorLinks
+
+```javascript
+import React from 'react'
+import {Anchor. AnchorLink, Div} from 'indoqa-rebass-components'
+
+const Page = () => (
+  <Div>
+    <AnchorLink to="section2"> Jump to section 2 </AnchorLink>
+    .......
+    .......
+    .......
+    <Anchor id="section2"/>
+    Here starts section 2!
+  </Div>
+)
+
+export default Page
+```
+
 
 ### Lists
 

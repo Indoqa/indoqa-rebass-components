@@ -1,28 +1,39 @@
 import React from 'react'
-import Div from '../main/components/Div.react'
 import {Divider, Heading, Space} from 'rebass'
+import Anchor from '../main/components/Anchor.react'
+import AnchorLink from '../main/components/AnchorLink.react'
+import Div from '../main/components/Div.react'
 import List from '../main/components/List.react'
 import ListItem from '../main/components/ListItem.react'
 
 import FontAwesomeExample from './components/FontAwesomeExample.react'
 import ListExample from './components/ListExample.react'
+import DivSpanExample from './components/DivSpanExample.react'
 
 const DemoPage = (props, {rebass}) => (
-  <Div style={{fontFamily: rebass.fontFamily}}>
+  <Div style={{fontFamily: rebass.fontFamily}} p={1}>
     <Heading level={1}> indoqa-rebass-components examples </Heading>
     <Space y={2} />
     <List>
-      <ListItem> <a href="#lists">Lists </a> </ListItem>
-      <ListItem> <a href="#font-awesome">FontAwesome </a> </ListItem>
+      <ListItem> <AnchorLink to="lists">Lists </AnchorLink> </ListItem>
+      <ListItem> <AnchorLink to="font-awesome">FontAwesome </AnchorLink> </ListItem>
+      <ListItem> <AnchorLink to="div-span">Div/Span </AnchorLink> </ListItem>
     </List>
-    <Space y={4} />
-    <a name="lists"></a>
-    <Divider />
-    <ListExample />
-    <Space y={2} />
-    <Divider />
-    <a name="font-awesome"></a>
-    <FontAwesomeExample />
+    <Div mb={4}>
+      <Anchor id="lists" />
+      <Divider />
+      <ListExample />
+      <Divider />
+    </Div>
+    <Div mb={4}>
+      <Anchor id="font-awesome" />
+      <FontAwesomeExample />
+      <Divider />
+    </Div>
+    <Div mb={4}>
+      <Anchor id="div-span" />
+      <DivSpanExample />
+    </Div>
   </Div>
 )
 
