@@ -12,17 +12,17 @@ const ListExample = () => (
       <Span style={{backgroundColor: 'red'}}> text </Span>
     </Div>
     <Div>
-      <Pre> &lt;Span m={1} style=&#123;&#123;backgroundColor: 'red'&#125;&#125;&gt; text &lt;/Span&gt; x2 </Pre>
+      <Pre> &lt;Span m=&#123;1&#125; style=&#123;&#123;backgroundColor: 'red'&#125;&#125;&gt; text &lt;/Span&gt; x2 </Pre>
       <Span m={1} style={{backgroundColor: 'red'}}> text </Span>
       <Span m={1} style={{backgroundColor: 'red'}}> text </Span>
     </Div>
     <Div>
-      <Pre> &lt;Span p={1} style=&#123;&#123;backgroundColor: 'red'&#125;&#125;&gt; text &lt;/Span&gt; x2 </Pre>
+      <Pre> &lt;Span p=&#123;1&#125; style=&#123;&#123;backgroundColor: 'red'&#125;&#125;&gt; text &lt;/Span&gt; x2 </Pre>
       <Span p={1} style={{backgroundColor: 'red'}}> text </Span>
       <Span p={1} style={{backgroundColor: 'red'}}> text </Span>
     </Div>
     <Div>
-      <Pre> &lt;Span p={1} m={1} style=&#123;&#123;backgroundColor: 'red'&#125;&#125;&gt; text &lt;/Span&gt; x2 </Pre>
+      <Pre> &lt;Span p=&#123;1&#125; m=&#123;1&#125; style=&#123;&#123;backgroundColor: 'red'&#125;&#125;&gt; text &lt;/Span&gt; x2 </Pre>
       <Span p={1} m={1} style={{backgroundColor: 'red'}}> text </Span>
       <Span p={1} m={1} style={{backgroundColor: 'red'}}> text </Span>
     </Div>
