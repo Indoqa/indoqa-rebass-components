@@ -2,10 +2,10 @@ import React, {PropTypes} from 'react'
 import {Base} from 'rebass'
 
 const FontAwesome = ({icon, className, color, size, ...other}) => {
-  const baseStyle = {
-    color: color || 'inherit',
-    fontSize: size || 'inherit'
-  }
+  const baseStyle = {}
+
+  if (size) baseStyle['fontSize'] = size
+  if (color) baseStyle['color'] = color
 
   return (
     <Base
