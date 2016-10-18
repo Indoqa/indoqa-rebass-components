@@ -10,7 +10,7 @@ const FontAwesome = ({icon, className, color, size, ...other}) => {
   return (
     <Base
       baseStyle={baseStyle}
-      className={`FontAwesomeIcon fa fa-${icon} ${className}`}
+      className={`FontAwesome fa fa-${icon} ${className}`}
       tagName="li"
       {...other}
     />
