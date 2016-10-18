@@ -1,6 +1,6 @@
 {
   "name": "indoqa-rebass-components",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "main": "./dist/indoqa-rebass-components.min.js",
   "scripts": {
     "start": "node ./src/dev/server.js",
